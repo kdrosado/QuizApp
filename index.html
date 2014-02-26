@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Quiz App</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type='text/javascript' src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script language="javascript"  src="application.js"></script>
+	</head>
+
+	<body>
+		<!-- Main content set-up -->
+		<div class="container">
+			<!-- Header set-up -->
+			<h1>Fine Wine Quiz</h1>
+			<!-- Questions set-up -->
+			<div class="questions">
+				<p id="singlequestion">This is where the question goes </p>
+				<p id="progress">(You are on question <span id="number">NUMBER</span> of <span id="total">TOTAL</span>)</p>
+				<!-- Choice options -->
+				<form>
+					<input type="radio" name="answers" id="answer0" value="0" class="radio"><span id="choice0">answer 1</span><br>
+					<input type="radio" name="answers" id="answer1" value="1" class="radio"><span id="choice1">answer 2</span><br>
+					<input type="radio" name="answers" id="answer2" value="2" class="radio"><span id="choice2">answer 3</span><br>
+					<input type="radio" name="answers" id="answer3" value="3" class="radio"><span id="choice3">answer 4</span><br>
+					<input type="submit" value="Submit Answer" class="submit">			
+				</form>
+			</div><!-- Closing div for questions class -->
+			<p id="numcorrect"></p>
+			<!-- Button set-up -->
+			<button id="startover" >Start Over</button>
+		</div><!-- Closing div for container class -->
+	</body>
+</html>
