@@ -4,4 +4,4 @@
 
 <p>You can view this application online at <a href="http://kdrosado.github.io/QuizApp/">Wine Quiz</a>.</p>
 
-<img src="" alt="Wine in a garden">
+<img src="images/food-and-fine-wine.jpg" alt="Wine in a garden">
